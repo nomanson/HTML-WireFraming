@@ -5,9 +5,9 @@ body {
 }
 
 img.left {
-    float: left;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    float:left;
+    margin-right:.5em;
+    margin-bottom:.5em
 }
 
 /* WIREFRAME
@@ -18,56 +18,55 @@ We use a dashed outline to make the wires and a transparent grey background that
 div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     background:#fff;
     outline:1px #333 dashed;
-    background:rgba(120, 120, 120, 0.15);
+    background:rgba(120,120,120,0.15)
 }
 
 /* TYPPOGRAPHY */
-
 h1,h2,h3,h4,h5,h6 {
     margin-bottom:24px;
     font-weight:700;
-    overflow: hidden;
+    overflow:hidden
 }
 
 h1 {
     font-size:1.5em;
 /* 24px --> 24 ÷ 16 = 1.5 */
-    line-height:1em
-/* 24px --> 24 ÷ 24 = 1 */
+    line-height:/* 24px --> 24 ÷ 24 = 1 */
+1em
 }
 
 h2 {
     font-size:1.375em;
 /* 22px --> 22 ÷ 16 = 1.375 */
-    line-height:1.0909em
-/* 24px --> 24 ÷ 22 = 1.090909(09) */
+    line-height:/* 24px --> 24 ÷ 22 = 1.090909(09) */
+1.0909em
 }
 
 h3 {
     font-size:1.25em;
 /* 20px --> 20 ÷ 16 = 1.25 */
-    line-height:1.2em
-/* 24px --> 24 ÷ 20 = 1.2 */
+    line-height:/* 24px --> 24 ÷ 20 = 1.2 */
+1.2em
 }
 
 h4 {
     font-size:1.125em;
 /* 18px --> 18 ÷ 16 = 1.125 */
-    line-height:1.333em
-/* 24px --> 24 ÷ 18 = 1.3333333(3) */
+    line-height:/* 24px --> 24 ÷ 18 = 1.3333333(3) */
+1.333em
 }
 
 h5,h6 {
     font-size:1em;
 /* 16px --> 16 ÷ 16 = 1 */
-    line-height:1.5em
-/* 24px --> 24 ÷ 16 = 1.5 */
+    line-height:/* 24px --> 24 ÷ 16 = 1.5 */
+1.5em
 }
 
 /*--- PARAGRAPHS ---*/
 p {
     margin-bottom:24px;
-    overflow: hidden;
+    overflow:hidden
 }
 
 p+p {
@@ -78,34 +77,33 @@ p+p {
 /* STRUCTURE */
 div:first-of-type {
     width:960px;
-    margin:auto;
+    margin:auto
 }
 
 /* We ad an image of our grid as background when the user hovers over our wrapper div */
-
 div:first-of-type:hover {
     background:url(../images/12_col.gif) repeat-y;
     background-size:100%
 }
 
 header {
-    height: 200px;
+    height:200px
 }
 
 header>img {
-    margin: 25px 45px 25px 45px;
-    display: block;
-    float: left;
+    margin:25px 45px;
+    display:block;
+    float:left
 }
 
 header>h1 {
-    line-height: 200px;
+    line-height:200px;
     font-size:3em;
-    text-align:center;
+    text-align:center
 }
 
 nav {
-    overflow: hidden;
+    overflow:hidden
 }
 
 nav>ul {
@@ -114,32 +112,32 @@ nav>ul {
 nav>ul>li {
     width:140px;
     text-align:center;
-    line-height: 1.5em;
-    margin: 10px;
-    float: left;
+    line-height:1.5em;
+    margin:10px;
+    float:left
 }
 
 section {
-    min-height:450px;
+    min-height:450px
 }
 
 article {
-    padding: 10px;
-    padding-top: 2em;
+    padding:10px;
+    padding-top:2em;
     overflow:hidden
 }
 
 article p {
-    height: 20em;
+    height:20em
 }
 
 aside {
     width:220px;
     min-height:450px;
-    margin-left: 20px;
+    margin-left:20px;
     float:right
 }
 
 footer {
-    min-height:4em;
+    min-height:4em
 }
