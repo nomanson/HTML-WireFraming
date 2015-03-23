@@ -1,24 +1,52 @@
+/* WIREFRAME
+
+We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are on top of eachother.
+
+*/
+div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,img,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    background:#fff;
+    outline:1px #333 dashed;
+    background:rgba(120,120,120,0.15)
+}
+
+.image_holder>label,label.tagLabel {
+    display:inline-block;
+    padding:5px;
+    margin:5px;
+    font-size:16px;
+    background:#fff;
+    outline:2px dotted #fff;
+    line-height:1em;
+    z-index:3
+}
+
+label.tagLabel>em {
+    display:block;
+    font-weight:900;
+    text-transform:uppercase;
+    margin-bottom:8px
+}
+
+label.tagLabel table,label.tagLabel tbody,label.tagLabel tr,label.tagLabel td {
+    background:transparent;
+    outline:none
+}
+
+label.tagLabel td {
+    padding:2px;
+    font-size:16px
+}
+
 /* GENEREL STYLES */
 body {
     background:#fff;
     font-family:"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace
 }
 
-img.left {
+.image_holder.left {
     float:left;
     margin-right:.5em;
     margin-bottom:.5em
-}
-
-/* WIREFRAME
-
-We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are on top of eachother.
-
-*/
-div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-    background:#fff;
-    outline:1px #333 dashed;
-    background:rgba(120,120,120,0.15)
 }
 
 /* TYPPOGRAPHY */
@@ -63,34 +91,24 @@ h5,h6 {
 1.5em
 }
 
-/*--- PARAGRAPHS ---*/
-p {
-    margin-bottom:24px;
-    overflow:hidden
-}
-
-p+p {
-    text-indent:1em;
-    margin-top:-24px
-}
-
 /* STRUCTURE */
-div:first-of-type {
+body>div {
     width:960px;
     margin:auto
 }
 
 /* We ad an image of our grid as background when the user hovers over our wrapper div */
-div:first-of-type:hover {
+body>div:hover {
     background:url(../images/12_col.gif) repeat-y;
     background-size:100%
 }
 
+/* HEADER */
 header {
     height:200px
 }
 
-header>img {
+header>.image_holder {
     margin:25px 45px;
     display:block;
     float:left
@@ -98,10 +116,12 @@ header>img {
 
 header>h1 {
     line-height:200px;
+    width:720px;
     font-size:3em;
     text-align:center
 }
 
+/* TOP MENU */
 nav {
     overflow:hidden
 }
@@ -117,6 +137,7 @@ nav>ul>li {
     float:left
 }
 
+/* CONTENT */
 section {
     min-height:450px
 }
@@ -128,16 +149,20 @@ article {
 }
 
 article p {
-    height:20em
+    overflow:hidden;
+    min-height:20em
 }
 
 aside {
     width:220px;
     min-height:450px;
     margin-left:20px;
+    overflow:hidden;
     float:right
 }
 
+/* FOOTER */
 footer {
-    min-height:4em
+    height:200px;
+    margin-bottom:100px
 }
