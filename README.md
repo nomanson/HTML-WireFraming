@@ -9,7 +9,7 @@ Use the CSS outline property on all major block level tags as shown in the wiref
 
 TRANSPARANCY
 
-Use background-color with opacity (via RGBa) as shown in wireframe.css
+Use background-color with opacity (via RGBa) as shown in wireframe.css. This will make overlapping elements look darker!
 
 IMAGES
 
