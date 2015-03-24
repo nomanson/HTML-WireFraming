@@ -1,3 +1,23 @@
+/*
+(c) Jan Ingemansen 2015
+
+This file is part of Wireframes with HTML and CSS.
+
+    Wireframes with HTML and CSS is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Wireframes with HTML and CSS is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
 /* WIREFRAME
 
 We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are on top of eachother.

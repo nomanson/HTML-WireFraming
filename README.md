@@ -1,6 +1,9 @@
 # WireFraming
 WIREFRAMING WITH HTML AND CSS
 
+Based on Michael Botsko's article "HTML5 AND CSS3: WIREFRAMING IN THE FINAL PRODUCT" at Webdesignerdepot April 26th 2011
+(http://www.webdesignerdepot.com/2011/04/html5-and-css3-wireframing-in-the-final-product/).
+
 If you are just a little proficient in HTML and CSS it is often easier to wireframe with HTML and CSS then graphical tools. This way you also get fast interactive prototypes to test your navigation, task flow, information architecture etc.
 
 OUTLINE
