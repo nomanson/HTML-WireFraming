@@ -27,7 +27,7 @@ $(document)
                 // which is accessible easily via $(o), e.g.
                 $(o)
                     .replaceWith(
-                        '<div class="image_holder" style="display: inline-block;width:' +
+                        '<div class="image_holder" style="display: inline-block; width:' +
                         $(o)
                         .attr('width') + 'px; height:' + $(o)
                         .attr('height') +

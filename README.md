@@ -16,7 +16,7 @@ Use background-color with opacity (via RGBa) as shown in wireframe.css. This wil
 
 IMAGES
 
-Using the wireframe.js will turn all image tags into DIV tags. Just use with and height attributes in your image tag and the DIV will be set to this size in pixels.
+Using the wireframe.js will turn all image tags into DIV tags. Just use with and height attributes in your image tag and the DIV will be set to this size in pixels. The div has a class 'image_holder' for seperate styling.
 
 WIREFRAME.JS
 

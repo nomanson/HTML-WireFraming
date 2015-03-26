@@ -31,6 +31,10 @@ body {
     margin-bottom:.5em
 }
 
+section>section {
+    padding: 30px;
+}
+
 /* TYPPOGRAPHY */
 h1,h2,h3,h4,h5,h6 {
     margin-bottom:24px;
@@ -71,6 +75,24 @@ h5,h6 {
 /* 16px --> 16 ÷ 16 = 1 */
     line-height:/* 24px --> 24 ÷ 16 = 1.5 */
 1.5em
+}
+
+/*--- PARAGRAPHS ---*/
+p {
+    margin-bottom:24px
+}
+
+p+p {
+    text-indent:1em;
+    margin-top:-24px
+}
+
+/* QUOTES */
+
+hanging-punctuation: none | [ first || [ force-end | allow-end ] || last ]
+
+blockquote p {
+  hanging-punctuation: first;
 }
 
 /* STRUCTURE */
@@ -130,9 +152,13 @@ article {
     overflow:hidden
 }
 
+article p>div.image_holder {
+    display: block !important;
+    float: right;
+}
+
+
 article p {
-    overflow:hidden;
-    min-height:20em
 }
 
 aside {

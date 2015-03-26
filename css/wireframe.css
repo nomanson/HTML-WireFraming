@@ -26,7 +26,19 @@ We use a dashed outline to make the wires and a transparent grey background that
 div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,img,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     background:#fff;
     outline:1px #333 dashed;
-    background:rgba(120,120,120,0.15)
+    background:rgba(120,120,120,0.05);
+    overflow: hidden;
+}
+
+p {
+    overflow: visible;
+}
+
+/* you can make elements have no 'wire' with this class */
+.no_wire {
+    background:#fff;
+    outline:1px #333 dashed;
+    background:rgba(255,255,255,1)    
 }
 
 .image_holder>label,label.tagLabel {
@@ -56,3 +68,4 @@ label.tagLabel td {
     padding:2px;
     font-size:16px
 }
+
