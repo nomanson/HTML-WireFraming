@@ -14,7 +14,7 @@ This file is part of Wireframes with HTML and CSS.
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    along with Wireframes with HTML and CSS.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 $(document)
@@ -39,7 +39,7 @@ $(document)
         $(
                 "div,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,img,ins,kbd,samp,dl,dt,dd,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video"
             )
-            .each(function() {
+            .each(function(index) {
                 var thisTag = $(this).prop("tagName");
                 var titleContent = [thisTag +
                     "\n"
