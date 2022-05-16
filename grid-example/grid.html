@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="Jan Ingemansen" name="author"><!--
+(c) Jan Ingemansen 2015
+
+This file is part of Wireframes with HTML and CSS.
+
+    Wireframes with HTML and CSS is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Wireframes with HTML and CSS is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Wireframes with HTML and CSS.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/wireframe.js"></script>
+    <link href="css/reset_html5.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/wireframe.css" rel="stylesheet" type="text/css">
+
+    <title>Wireframe</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <img alt="Logo" height="150" src="#" width="150">
+
+            <h1>Wireframes</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="wireframe.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="examples.html">Subpage 1</a>
+                </li>
+
+                <li>Menu</li>
+
+                <li>Menu</li>
+
+                <li>Menu</li>
+
+                <li>Menu</li>
+            </ul>
+        </nav>
+
+        <section>
+            <article>
+                <h1>Wireframing with HTML and CSS</h1>
+                <aside>
+                    <h2>Aside</h2>
+                    <p>Based on Michael Botsko's article: <a href=
+                "http://www.webdesignerdepot.com/2011/04/html5-and-css3-wireframing-in-the-final-product/">
+                HTML5 AND CSS3: WIREFRAMING IN THE FINAL PRODUCT</a> at
+                Webdesignerdepot April 26th 2011</p>
+                </aside>
+
+                <p><img alt="Image" height=
+                "150" src="#" width="350">If you are just a little proficient in HTML and CSS it is
+                often easier to wireframe with HTML and CSS then graphical
+                tools. This way you also get fast interactive prototypes to
+                test your navigation, task flow, information architecture
+                etc.</p>
+                <h2>CSS Outline</h2>
+
+<p>Use the CSS outline property on all major block level tags as shown in the wireframe.css</p>
+
+<h2>CSS Opacity</h2>
+
+<p>Use background-color with opacity (via RGBa) as shown in wireframe.css. This will make overlapping elements look darker!</p>
+
+<h2>Images</h2>
+
+<p>Using the wireframe.js will turn all image tags into DIV tags. Just use with and height attributes in your image tag and the DIV will be set to this size in pixels. The div has a class 'image_holder' for seperate styling.</p>
+
+<h2>Javascript</h2>
+
+<p>Apart from making images to DIV's the javascript shows css information (height, with, padding and margin) on hover via the title attribute. This works for most block level elements.</p>
+
+            </article>
+        </section>
+
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+</html>
