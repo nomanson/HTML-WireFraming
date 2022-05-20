@@ -130,8 +130,6 @@ nav {
     overflow:hidden
 }
 
-nav>ul {
-}
 
 nav>ul>li {
     width:140px;
@@ -157,9 +155,6 @@ article p>div.image_holder {
     float: right;
 }
 
-
-article p {
-}
 
 aside {
     width:220px;
