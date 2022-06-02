@@ -1,0 +1,30 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+header,
+nav,
+main,
+#left_bar,
+footer {
+    padding: 0.5rem;
+}
+
+header,
+footer {
+    grid-column: 1 / span 12;
+}
+
+main {
+    grid-column: 4 / span 6;
+}
+
+nav {
+    grid-column: 1 / span 3;
+}
+
+#left_bar {
+    grid-column: 10 / span 3;
+}

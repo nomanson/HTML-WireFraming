@@ -20,13 +20,58 @@ This file is part of Wireframes with HTML and CSS.
 
 /* WIREFRAME
 
-We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are on top of eachother.
+We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are inside eachother.
 
 */
-div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,img,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-    background:#fff;
-    outline:1px #333 dashed;
-    background:rgba(120,120,120,0.05);
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+main,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    background: #fff;
+    outline: 1px #333 dashed;
+    background: rgba(120, 120, 120, 0.05);
     overflow: hidden;
 }
 
@@ -36,36 +81,39 @@ p {
 
 /* you can make elements have no 'wire' with this class */
 .no_wire {
-    background:#fff;
-    outline:1px #333 dashed;
-    background:rgba(255,255,255,1)    
+    background: #fff;
+    outline: 1px #333 dashed;
+    background: rgba(255, 255, 255, 1)
 }
 
-.image_holder>label,label.tagLabel {
-    display:inline-block;
-    padding:5px;
-    margin:5px;
-    font-size:16px;
-    background:#fff;
-    outline:2px dotted #fff;
-    line-height:1em;
-    z-index:3
+.image_holder>label,
+label.tagLabel {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    background: #fff;
+    outline: 2px dotted #fff;
+    line-height: 1em;
+    z-index: 3
 }
 
 label.tagLabel>em {
-    display:block;
-    font-weight:900;
-    text-transform:uppercase;
-    margin-bottom:8px
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 8px
 }
 
-label.tagLabel table,label.tagLabel tbody,label.tagLabel tr,label.tagLabel td {
-    background:transparent;
-    outline:none
+label.tagLabel table,
+label.tagLabel tbody,
+label.tagLabel tr,
+label.tagLabel td {
+    background: transparent;
+    outline: none
 }
 
 label.tagLabel td {
-    padding:2px;
-    font-size:16px
+    padding: 2px;
+    font-size: 16px
 }
-
