@@ -35,7 +35,15 @@ section>section {
     padding: 30px;
 }
 
+code {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
 /* TYPPOGRAPHY */
+
 h1,h2,h3,h4,h5,h6 {
     margin-bottom:24px;
     font-weight:700;

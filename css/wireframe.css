@@ -23,10 +23,10 @@ This file is part of Wireframes with HTML and CSS.
 We use a dashed outline to make the wires and a transparent grey background that will make elements darker when they are on top of eachother.
 
 */
-div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,img,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,img,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video, code {
     background:#fff;
     outline:1px #333 dashed;
-    background:rgba(120,120,120,0.05);
+    background:rgba(0,0,0,0.1);
     overflow: hidden;
 }
 
