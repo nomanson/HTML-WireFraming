@@ -97,8 +97,6 @@ p+p {
 
 /* QUOTES */
 
-hanging-punctuation: none | [ first || [ force-end | allow-end ] || last ]
-
 blockquote p {
   hanging-punctuation: first;
 }
